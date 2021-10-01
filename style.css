@@ -1,0 +1,24 @@
+.gallary h1{
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+    font-weight: bold;
+    padding: 16px 12px;
+    text-shadow: 5px 4px 10px rgb(88, 3, 20);
+}
+.image{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.single-image{
+    padding: 18px 16px;
+    cursor: pointer;
+    
+}
+.single-image:hover{
+    opacity: 0.6;
+    transition: 0.9s;
+}
